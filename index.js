@@ -35,7 +35,7 @@ http.createServer(function(req, res) {
      // if the user hasn't navigated to the about page - landing page
     }else {
         res.writeHead(200, { "Content-Type" : "text/plain"});
-        res.end("Welcome to the Node.js Web App");
+        res.end("Welcome to the Node.js Web App. For About Me Section - Type into URL Bar: http://localhost:8000/about");
     }
    
    // listening on the specified port for http server
