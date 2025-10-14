@@ -34,7 +34,7 @@ http.createServer(function(req, res) {
 
      // if the user hasn't navigated to the about page - landing page
     }else {
-        res.writeHead(200, { "Content-Type" : "text/plain"});
+        res.writeHead(200, { "Content-Type" : "text/html"});
         res.end(`<h1>Welcome to the Node.js Web App</h1>. 
             <p>For About Me Section, click here: <a href="http://localhost:8000/about">About Me</a></p>
         `);
